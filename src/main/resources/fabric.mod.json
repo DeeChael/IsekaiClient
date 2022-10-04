@@ -1,29 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "isekaiclient",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Isekai Client",
+  "description": "A fabric minecraft mod aiming to give you some helpful tools!",
   "authors": [
-    "Me!"
+    "DeeChael"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/DeeChael/IsekaiClient",
+    "sources": "https://github.com/DeeChael/IsekaiClient"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/isekaiclient/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.deechael.fabric.isekaiclient.Isekai"
+    ],
+    "client": [
+      "net.deechael.fabric.isekaiclient.IsekaiClient"
+    ],
+    "modmenu": [
+      "net.deechael.fabric.isekaiclient.IsekaiModMenuIntegration"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "isekaiclient.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +39,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

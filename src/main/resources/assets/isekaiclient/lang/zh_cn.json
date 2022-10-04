@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.isekaiclient.title": "异世界客户端",
+  "text.autoconfig.isekaiclient.option.removeBreakingCooldown": "删除挖掘冷却",
+  "text.autoconfig.isekaiclient.option.highlightWanderingTrader": "高亮旅行商人",
+  "text.autoconfig.isekaiclient.option.avoidIntentionalGameDesign": "防止 [刻意的游戏设计]"
+}

@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.isekaiclient.title": "Isekai Client",
+  "text.autoconfig.isekaiclient.option.removeBreakingCooldown": "Remove Breaking Cooldown",
+  "text.autoconfig.isekaiclient.option.highlightWanderingTrader": "Highlight Wandering Trader",
+  "text.autoconfig.isekaiclient.option.avoidIntentionalGameDesign": "Avoid [Intentional Game Design]"
+}
